@@ -1,6 +1,6 @@
 # computational-neuro
 
-For best performance, use the dataset on (hugginface)[https://huggingface.co/datasets/Bareket/larva]
+For best performance, use the dataset on [hugginface](https://huggingface.co/datasets/Bareket/larva)
 
 it can be used like this:
 ```python
