@@ -37,10 +37,4 @@ for label_id, count in label_counts.items():
     # Convert the numeric label to its corresponding folder name.
     folder_name = label_names[label_id] if "label" in dataset.features else str(label_id)
     print(f"{folder_name}: {count}")
-
-# OR: Converting to a pandas DataFrame.
-df = pd.DataFrame(dataset)
-print("\nLabel counts (using pandas):")
-print(df["label"].value_counts().rename(index=lambda x: label_names[x] if "label" in dataset.features else str(x)))
-
 ```
